@@ -55,7 +55,7 @@ body {
     position: relative;
     top:3rem;  
     height: 12rem;
-    background-image: url(task5-2.png);
+    background-image: url(task5_2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #ffffff;
@@ -102,9 +102,9 @@ body {
 }
 .main_4 {
     position: relative;
-    margin: 2rem;
+    margin: 2rem 1rem;
     top: 2rem;
-    width: 95%;
+    width: 96%;
     height: 3.5rem;
     border-bottom: 2px solid #e1e5e7;
 }
@@ -123,9 +123,9 @@ body {
     color: black;
 }
 .main_5 {
-    width: 95%;
+    width: 96%;
     height: 3.5rem;
-    margin: 2rem;   
+    margin: 2rem 1rem;   
     border-bottom: 2px solid #e1e5e7;
     color: black;
 }
@@ -144,9 +144,9 @@ body {
     position: relative;
     top:-2rem;
     border-bottom: 2px solid #e1e5e7;
-    width: 95%;
+    width: 96%;
     height: 3.5rem;
-    margin: 2rem;
+    margin: 2rem 1rem;
     color: black;
 }
 .work1 {
@@ -163,9 +163,9 @@ body {
 .main_7 {
     position: relative;
     top:-4rem;
-    margin: 2rem;
+    margin: 2rem 1rem;
     border-bottom: 2px solid #e1e5e7;
-    width: 95%;
+    width: 96%;
     height: 3.5rem;
     color: black;
 }
@@ -184,9 +184,9 @@ body {
 .main_8 {
     position: relative;
     top: -6rem;
-    width: 95%;
-    height: 3.5rem;
-    margin: 2rem;   
+    width: 96%;
+    height: 6rem;
+    margin: 2rem 2rem 2rem 1rem;   
     border-bottom: 2px solid #e1e5e7;
     color: black;
 }
@@ -195,10 +195,11 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
     color: #b3b3b3;
-    line-height: 3.5rem;
+    line-height: 6rem;
 }
 .introduce2 {
     padding-left: 1rem;
+    padding-right: 1.2rem;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
