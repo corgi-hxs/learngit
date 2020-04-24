@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    z-index: 1;
+    text-align: center;
+    background-color: #29bde0;
+}
+.header-l {
+   position: relative;
+   left: 1rem;
+   transform: scale(0.7);
+}
+.header-m {
+    line-height: 3rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.header-r {
+    position: relative;
+    right: 1rem;
+    transform: scale(0.7);
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 6rem;
+    background: rgba(135, 206, 250, 0.5);
+}
+.footer-l {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 1rem;
+    width: 42%;
+    height: 4rem;
+    border-radius: 10px;
+    background-color: #f66f6f;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.footer-r {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1rem;
+    width: 42%;
+    height: 4rem;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #fbb435;
+}
+.main {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 3rem;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*bottom: 6rem;*/
+    background-color: #29bde0;
+}
+.main-icon {
+    position: relative;
+    top: -1rem;
+    transform: scale(0.7);
+    text-align: center;
+}
+.text-1 {
+    position: relative;
+    top: -2rem;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 1.5rem;
+    color: #ffc865; 
+}
+.text-2 {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+}
+.day1 {
+    position: relative;
+    top: 1rem;
+    border-top: 2px solid #acacac;
+    padding-top: 1rem;
+    padding-left: 2.5rem;
+    width: 100%;
+    height: 6rem;
+    color: #acacac;
+    background-color: #fff;
+}
+.day-1 {
+    position: relative;
+    top: -.5rem;
+    font-size: 1.2rem;
+    color: #000;
+}
+.time {
+    position: relative;
+    float: right;
+    right: 4rem;
+}
+.day2 {
+    position: relative;
+    top: 1rem;
+    padding-top: 1rem;
+    padding-left: 2.5rem;
+    border-top: 2px solid #acacac;
+    padding-bottom: 6rem;
+    width: 100%;
+    height: 6rem;
+    color: #acacac;
+    background-color: #fff;
+}
