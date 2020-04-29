@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3rem;
+    text-align: center;
+    background-color: #29bde0;
+    z-index: 1;
+}
+.head-l {
+    position: relative;
+    float: left;
+    left: 2rem;
+    top: 50%;
+    transform: translateY(-50%); 
+    width: 1.7rem;
+    height: 1.7rem;
+}
+.head-m {
+    line-height: 3rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.head-r {
+    position: relative;
+    float: right;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.7rem;
+    height: 1.7rem;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 2px solid #fff;
+    height: 6rem;
+    background-color: #29bde0; 
+}
+.footer-1 {
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    height: 3rem;
+    text-align: center;
+    background-color: #fbb435;
+}
+a {
+    text-decoration: none;
+}
+.footer-1 span {
+    line-height: 3rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.main {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 3rem;
+    bottom: 6rem;   
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #29bde0;
+}
+.main-top {
+    position: relative; 
+    right: 0;
+    height: 3rem; 
+    text-align: center;
+    background-color: #b9e9f5;
+}
+.main-top span {
+    position: absolute;
+    left: 2.5rem;
+    line-height: 3rem;
+    color: #4d5051;
+}
+.audio {
+    position: absolute;
+    float: right;
+    right: -14rem;
+    opacity: 0;
+}
+.main-top-icon {
+    position: relative;
+    float: right;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2rem;
+    height: 2rem;
+}
+.triangle {
+    position: relative;
+    left: 4rem;
+    border: 10px solid #b9e9f5;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    border-color: #b9e9f5 transparent transparent  transparent  /*对应顺序为上右下左，想显示那个方向的三角形，让其他方向的颜色为透明色*/
+}
+.main p {
+    position: relative;
+    left: 3rem;
+    color: #fff;
+    top: -1rem;
+}
+.content-1 {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    height: 10rem;
+}
+.box1-t {
+    position: relative;
+    border: 3px solid #fff;
+    width: 5.7rem;
+    height: 6.5rem;
+    text-align: center;
+    background-color: #fbb435;
+}
+.box1-t span {
+    line-height: 6rem;
+}
+.box1-m span {
+    line-height: 1.5rem;
+}
+.box1-m {
+    position: absolute;
+    top: 5rem;
+    width: 5.65rem;    
+    height: 1.5rem;
+    background-color: #83b09a;
+}
+.icons {
+    position: relative;
+    top: .5rem;
+    left: -.5rem;
+    width: 6rem;
+    height: 3rem;
+    display: none;
+}
+.box:hover .icons{
+    display: block;
+}
+
+.bg-7_5 {
+    position: relative;
+    top: -60px;
+    left: 53px;
+    transform: scale(0.8);
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -107px -10px;
+}
+
+.bg-7_4 {
+    position: relative;
+    top: -30px;
+    left: 27px;
+    transform: scale(0.8);
+    width: 28px; height: 30px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+.bg-7_3 {
+    position: relative;
+    transform: scale(0.8);
+    width: 29px; height: 30px;
+    background: url('css_sprites.png') -58px -10px;
+}
+
+.bg-7_6 {
+    position: relative;
+    top: -90px;
+    left: 80px;
+    transform: scale(0.8);
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -157px -10px;
+}
